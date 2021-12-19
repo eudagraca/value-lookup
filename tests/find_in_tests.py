@@ -1,10 +1,10 @@
 import unittest
-from  find_value import FindValueInArray
+from  value_lookup import ValueLookup
 
 class ExistingValueTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.check_exist_val = FindValueInArray()
+        self.check_exist_val = ValueLookup()
     
     # If the word can be found on one char 
     def test_checkSingleString(self):

@@ -1,6 +1,6 @@
 from typing import List
 
-class FindValueInArray:
+class ValueLookup:
     """
         :pivot_value: Value to check in list
         :the_list: list where you will search for the value
