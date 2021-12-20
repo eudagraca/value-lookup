@@ -1,32 +1,29 @@
 import unittest
-from  value_lookup import ValueLookup
+from  value_lookup import vlookup
 
 class ExistingValueTestCase(unittest.TestCase):
 
-    def setUp(self):
-        self.check_exist_val = ValueLookup()
-    
     # If the word can be found on one char 
     def test_checkSingleString(self):
-        result = self.check_exist_val.value_exists("a", "a")
-        self.assertFalse(result)
+        result = vlookup("a", "a")
+        self.assertTrue(result)
     
     # If a number can be found on one char 
 
     def test_checkSingleInteger(self):
-        result = self.check_exist_val.value_exists(1, 1)
-        self.assertFalse(result)
+        result = vlookup(1, 1)
+        self.assertTrue(result)
 
     # If a char can be found in  an string list 
 
     def test_checkArrayOfStrings(self):
-        result = self.check_exist_val.value_exists("a", ["a","b","e","c"])
-        self.assertFalse(result)
+        result = vlookup("a", ["a","b","e","c"])
+        self.assertTrue(result)
 
     # If char can be found in an integer list
 
     def test_checkArrayOfIntegers(self):
-        result = self.check_exist_val.value_exists(0, [1,2,4,5,6])
+        result = vlookup(0, [1,2,4,5,6])
         self.assertFalse(result)
 
 if __name__ == '__main__':
