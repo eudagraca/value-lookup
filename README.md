@@ -3,7 +3,7 @@ Value lookup in an array Python Library
 
 Python library to search value into inside array. This doesn't cover object analysis.
 
-[![Coverage Status](https://coveralls.io/repos/daviddrysdale/python-phonenumbers/badge.svg?branch=dev&service=github)](https://github.com/eudagraca/value-lookup)
+[![Coverage Status](https://coveralls.io/repos/daviddrysdale/python-phonenumbers/badge.svg?branch=dev&service=github)](https://github.com/eudagraca/value-lookuphe)
 
 Motivation
 ------------
