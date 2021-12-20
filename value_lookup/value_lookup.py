@@ -20,7 +20,7 @@ def vlookup(pivot_value, the_list, complete_analysis=False):
             result.append(value)
         counter += 1
     
-    if  complete_analysis and  bool(result):
+    if  complete_analysis:
         return {'founded_values': result, 
                 'size_of_returned_list': len(result),  
                 'object_type': type(result)
