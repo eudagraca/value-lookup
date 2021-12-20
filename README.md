@@ -37,7 +37,7 @@ test2 = vlookup(1, [1,2,3,4,5,6])
 print(test2)
 
 Output:
-    {True
+    True
 
 ```
 
