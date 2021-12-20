@@ -1,4 +1,4 @@
-from  value_lookup import ValueLookup
+from  value_lookup import vlookup
 
-exist_value = ValueLookup
-print (exist_value.value_exists(1, [1,2,3,4,5,6]))
+result = vlookup(1, [1,2,3,4,5,6])
+print(result)

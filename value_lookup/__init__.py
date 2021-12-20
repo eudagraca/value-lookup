@@ -1,1 +1,1 @@
-from  value_lookup.lookup import ValueLookup
+from value_lookup.value_lookup import vlookup
