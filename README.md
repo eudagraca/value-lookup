@@ -27,18 +27,20 @@ from  value_lookup import vlookup
 #### Test 1
 test1 = vlookup(1, [1,2,3,4,5,6], True)
 print(test1)
+```
 
-Output:
+### Output:
     {'founded_values': ['1'], 'size_of_returned_list': 1, 'object_type': <class 'list'>}
 
 #### Test 2
 
+```
 test2 = vlookup(1, [1,2,3,4,5,6])
 print(test2)
-
-Output:
+```
+### Output:
+```
     True
-
 ```
 
 #### Author
