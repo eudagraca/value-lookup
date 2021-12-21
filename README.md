@@ -3,11 +3,9 @@ Value lookup in an array Python Library
 
 Python library to search value into inside array. This doesn't cover object analysis.
 
-[![Coverage Status](https://coveralls.io/repos/daviddrysdale/python-phonenumbers/badge.svg?branch=dev&service=github)](https://github.com/eudagraca/value-lookuphe)
-
 Motivation
 ------------
-Value lookup help the way we can search for a value within a list
+Improve the way we can search for a value within a list
 
 
 Installation

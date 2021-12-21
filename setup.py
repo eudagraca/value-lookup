@@ -25,6 +25,7 @@ setup(
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
+        'Topic :: Software Development :: Build Tools',
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.9",

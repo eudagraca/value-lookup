@@ -18,11 +18,11 @@ def vlookup(pivot_value, the_list, complete_analysis=False):
     for value in list_of:
         if str(pivot_value) == value:
             result.append(value)
-        counter += 1
+            counter += 1
     
     if  complete_analysis:
         return {'founded_values': result, 
-                'size_of_returned_list': len(result),  
+                'size_of_returned_list': counter,  
                 'object_type': type(result)
             }
     else:
