@@ -7,7 +7,6 @@ Motivation
 ------------
 Improve the way we can search for a value within a list
 
-
 Installation
 ------------
 
