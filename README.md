@@ -42,4 +42,4 @@ print(test2)
 
 #### Author
 
-Euclídio Venâncio • euclidiodagracavenancio@gmail.com
+Euclídio Venâncio • euclidiodev@gmail.com
